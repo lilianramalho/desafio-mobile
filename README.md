@@ -18,7 +18,7 @@ Depois de ter feito o Fork, crie um projeto Flutter que possibilite a uma determ
 
 ## A API de vídeos
 
-[Este arquivo](./mockoon/gabriel-mobile-challenge.json) contém um pequeno arquivo de mock feito com Mockoon. Você pode baixar o Mockoon clicando aqui e abrir o arquivo de mock. Abra o Mockoon e carregue o arquivo que você baixou.
+[Este arquivo](./mockoon/gabriel-mobile-challenge.json) contém um pequeno arquivo de mock feito com Mockoon. Você pode baixar o Mockoon [clicando aqui](https://mockoon.com/download/) e abrir o arquivo de mock. Abra o Mockoon e carregue o arquivo que você baixou.
 
 Você poderá consumir os dados a partir da url **http://localhost:3001/v1/videos/history.** Abaixo, você verá o padrão descritivo de retorno da API:
 
