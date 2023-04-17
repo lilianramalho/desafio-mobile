@@ -22,13 +22,13 @@ Depois de ter feito o Fork, crie um projeto Flutter que possibilite a uma determ
 
 Você poderá consumir os dados a partir da url **http://localhost:3001/v1/videos/history.** Abaixo, você verá o padrão descritivo de retorno da API:
 
-| URL | Descrição | Status Code |
-| --- | --- | --- |
-| localhost:3001/v1/videos/history | uma lista de vídeos vazia | 202 |
-| localhost:3001/v1/videos/history?limit=10 | uma lista de vídeos com 10 elementos | 202 |
-| localhost:3001/v1/videos/history?limit=20 | uma lista de vídeos com 20 elementos | 202 |
-| localhost:3001/v1/videos/history?limit=-1 | uma mensagem de não encontrado | 400 |
-| localhost:3001/v1/videos/history?limit=-2 | uma mensagem de erro no servidor | 500 |
+| Método | URL | Descrição | Status Code |
+| --- | --- | --- | --- |
+| GET | localhost:3001/v1/videos/history | uma lista de vídeos vazia | 202 |
+| GET | localhost:3001/v1/videos/history?limit=10 | uma lista de vídeos com 10 elementos | 202 |
+| GET | localhost:3001/v1/videos/history?limit=20 | uma lista de vídeos com 20 elementos | 202 |
+| GET | localhost:3001/v1/videos/history?limit=-1 | uma mensagem de não encontrado | 400 |
+| GET | localhost:3001/v1/videos/history?limit=-2 | uma mensagem de erro no servidor | 500 |
 
 ## Tela de login
 
@@ -57,6 +57,8 @@ Nessa terceira tela, mostre um player que execute o vídeo devido. Com controles
 - Raciocínio crítico sobre o problema;
 
 Lembre-se sempre: **simples e bem feito** é o princípio que você deve seguir.
+
+**Dê o seu melhor! Bom desafio!**
 
 # Sobre nós
 
