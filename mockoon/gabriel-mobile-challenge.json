@@ -21,7 +21,12 @@
           "latency": 0,
           "statusCode": 202,
           "label": "",
-          "headers": [],
+          "headers": [
+            {
+              "key": "limit",
+              "value": "10"
+            }
+          ],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
